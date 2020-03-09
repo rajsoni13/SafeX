@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_tp_list"
+            android:icon="@drawable/trustedperson"
+            android:title="Trusted Person List" />
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="@drawable/alert"
+            android:title="Alert" />
+        <item
+            android:id="@+id/nav_live_tracking"
+            android:icon="@drawable/livetracking"
+            android:title="Live Tracking" />
+
+       <item
+           android:id="@+id/nav_logout"
+           android:icon="@drawable/logout"
+           android:title="Log Out" />
+    </group>
+</menu>
+
